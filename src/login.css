@@ -1,0 +1,69 @@
+@media all and (min-width: 480px) {
+  body {font-family: Arial, Helvetica, sans-serif;}
+    .Login {
+      padding: 160px 0;
+      
+    }
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+    .emailid{
+      padding-right: 10px;
+    }
+      input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+    .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+  }
+  .App {      
+    text-align: center;      
+  }      
+  .navheader{      
+    margin-top: 10px;      
+    color :black !important;      
+    background-color: #b3beca!important      
+  }    
+    
+  .PageHeading      
+  {      
+    margin-top: 10px;      
+    margin-bottom: 10px;      
+    color :black !important;      
+  }    
+
+  @media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .Login form, h1 {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}

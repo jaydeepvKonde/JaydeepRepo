@@ -1,6 +1,5 @@
 import $ from 'jquery';
-import React, { Component } from 'react';
-import { Link, Redirect } from 'react-router-dom';
+import React from 'react';
 import { connect } from 'react-redux';
 import { GetUserByEmailID,UpdateProfileDetailByCustomerID } from '../actions/userActions';
 import '../Css/Profile.css';

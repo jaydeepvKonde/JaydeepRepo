@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import {connect} from 'react-redux'
 import {fetchUser} from '../actions/userActions'
 import store from "../store";
-import { Link, Redirect } from 'react-router-dom';
+import {  Redirect } from 'react-router-dom';
 import "../login.css"
 class LoginComponent extends React.Component {
     state = {

@@ -1,5 +1,5 @@
 // Action Creators
-import utility, { EncryptAESData,DecryptAESData } from "../util";
+import { EncryptAESData } from "../util";
 import {setCookie} from '../utils/cookies';
 import {SET_USER_PROFILE,UPDATE_USER_PROFILE} from '../actions/types';
 const setUser = (payload) => ({ type: "SET_USER", payload})

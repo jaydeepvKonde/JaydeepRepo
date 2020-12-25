@@ -1,10 +1,8 @@
 import React, { Component } from 'react';  
-import { Button, Card, CardFooter, CardBody, CardGroup, Col, Container, Form, Input, InputGroup, InputGroupAddon, InputGroupText, Row } from 'reactstrap';  
-//import "../../node_modules/bootstrap/dist/css/bootstrap.css"
-import {Redirect, Route} from 'react-router-dom';
+
 import {withRouter} from 'react-router';
-import CryptoJS from "../../node_modules/crypto-js/crypto-js";
-import utility, { EncryptAESData } from "../util";
+
+import { EncryptAESData } from "../util";
 import "../Registration.css"
 class Register extends Component {  
   
@@ -26,7 +24,6 @@ class Register extends Component {
     this.Password = this.Password.bind(this);  
     this.ConfirmPassword = this.ConfirmPassword.bind(this);  
     this.CustomerName = this.CustomerName.bind(this);  
-    this.Password = this.Password.bind(this);  
     this.MobileNo = this.MobileNo.bind(this);
     this.CustomerAddress = this.CustomerAddress.bind(this);    
     this.City = this.City.bind(this);  

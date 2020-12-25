@@ -1,4 +1,4 @@
-import utility, { EncryptAESData } from "../util";
+import { EncryptAESData } from "../util";
 
 export const SavePaymentTransaction = (PaymentTransactionModel) => {
     const API_ENDPOINT = '/SaveTransactionDetails';

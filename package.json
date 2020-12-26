@@ -1,6 +1,5 @@
 {
-  "name": "react-shopping-cart",
-  "proxy": "http://localhost:56722",
+  "name": "centrecourt",
   "homepage":"http://www.centrecourt.co.in",
   "version": "0.1.0",
   "private": true,

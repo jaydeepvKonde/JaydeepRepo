@@ -1,7 +1,6 @@
 {
   "name": "centrecourt",
   "version": "0.1.0",
-  "proxy":"http://www.centrecourt.co.in",
   "homepage":"http://www.centrecourt.co.in",
   "private": true,
   "dependencies": {

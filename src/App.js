@@ -76,14 +76,24 @@ class App extends React.Component {
     }
   }
   render() {
-    
+    const App = () => (
+      <div>
+        <Switch>
+          <Route exact path='/' component={HomeScreen}/>
+          <Route path='/login' component={LoginScreen}/>
+        </Switch>
+      </div>
+    )
     return (
       <Provider store={store}>
         <Router history={history}>
           <div className="grid-container">
           {/* <AppNavbar></AppNavbar> */}
           
-            <BootstrapNavbar></BootstrapNavbar>
+            {/* <BootstrapNavbar></BootstrapNavbar> */}
+            <Switch>
+        <App/>
+      </Switch>
           </div>
         </Router>
       </Provider>
